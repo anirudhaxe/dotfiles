@@ -1,11 +1,11 @@
 # Dev Stash
 
-A stash for all dev configs.
+A stash for all dev configs:
 
 - neovim config
 - tmux config
 - iterm2 config
-- .zshrc config backup
+- .zshrc config
 - brew packages list backup
 
 ## Installation
@@ -24,22 +24,17 @@ In iterm2 installation, point to custom configuration directory by:
 - Use `cmd+,` to open settings
 - Under `General`, go to `Settings`
 - check `Load settings from a custom folder or URL`
-- Add path: `/Users/aniruddha/.config/iterm2-conf`
+- Add path: `~/.config/iterm2-conf`
 - In `Save changes` selectable, select `Automatically`
 
 ## zsh
 
-Setup zsh shell using .zshrc config backup:
+Install zshrc configuration by removing the existing .zshrc file and creating a symbolic link:
 
 ```bash
-cp ~/.config/zsh-conf-backup/.zshrc ~/.zshrc
+rm ~/.zshrc
+ln -s ~/.config/zsh-conf/.zshrc ~/.zshrc
 source ~/.zshrc
-```
-
-To update the .zshrc backup use:
-
-```bash
-cp ~/.zshrc ~/.config/zsh-conf-backup/.zshrc
 ```
 
 ## Homebrew
