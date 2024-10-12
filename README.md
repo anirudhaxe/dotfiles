@@ -21,7 +21,7 @@ git clone git@github.com:anirudhaxe/dev-stash.git .
 In iterm2 installation, point to custom configuration directory by:
 
 - Open iterm2
-- Use cmd+, to open settings
+- Use `cmd+,` to open settings
 - Under "General", go to "Settings"
 - check "Load settings from a custom folder or URL"
 - Add path: "/Users/aniruddha/.config/iterm2-conf"
