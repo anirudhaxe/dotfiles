@@ -6,7 +6,7 @@ A stash for all dev configs:
 - tmux config
 - iterm2 config
 - .zshrc config
-- brew packages list backup
+- Homebrew dump
 
 ## Installation
 
@@ -14,6 +14,20 @@ A stash for all dev configs:
 mkdir ~/.config
 cd ~/.config
 git clone git@github.com:anirudhaxe/dev-stash.git .
+```
+
+## Homebrew
+
+Setup the packages using Homebrew Brewfile:
+
+```bash
+brew bundle --file=~/.config/brew-dump/Brewfile
+```
+
+To update the Homebrew Brewfile:
+
+```bash
+brew bundle dump --file=~/.config/brew-dump/Brewfile
 ```
 
 ## zsh
@@ -36,19 +50,5 @@ In iterm2 installation, point to custom configuration directory by:
 - check `Load settings from a custom folder or URL`
 - Add path: `~/.config/iterm2-conf`
 - In `Save changes` selectable, select `Automatically`
-
-## Homebrew
-
-Use the brew packages list backup file to install all packages using brew cli:
-
-```bash
-xargs brew install < ~/.config/brew-ls-backup/brew_packages_list.txt
-```
-
-To update the packages list backup file:
-
-```bash
-brew list > ~/.config/brew-ls-backup/brew_packages_list.txt
-```
 
 ---
