@@ -1,6 +1,6 @@
 # Dev Stash
 
-A stash for all dev configs:
+A stash for dev configs.
 
 - neovim config
 - tmux config
@@ -18,7 +18,7 @@ git clone git@github.com:anirudhaxe/dev-stash.git .
 
 ## Homebrew
 
-Setup the packages using Homebrew Brewfile:
+[Install Homebrew](https://brew.sh/), then setup the [packages](https://github.com/anirudhaxe/dev-stash/blob/main/brew-dump/Brewfile) using Homebrew Brewfile:
 
 ```bash
 brew bundle --file=~/.config/brew-dump/Brewfile
