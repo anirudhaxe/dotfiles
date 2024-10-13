@@ -1,6 +1,6 @@
 # Dev Stash
 
-A stash for dev configs for macOS.
+A stash for dev configs for macOS - node, go, python, devops tooling, terminal & editor configs.
 
 - neovim config
 - tmux config
