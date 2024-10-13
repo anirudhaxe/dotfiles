@@ -174,6 +174,14 @@ export FZF_DEFAULT_OPTS="--query \"$(pbpaste)\""
 # fnm env setup
 eval "$(fnm env --use-on-cd --shell zsh)"
 
+# tmux
+# Always work in a tmux session if Tmux is installed
+if which tmux 2>&1 >/dev/null; then
+  if [ $TERM != "screen-256color" ] && [  $TERM != "screen" ]; then
+    tmux attach -t axe || tmux new -s axe; exit
+  fi
+fi
+
 # pnpm
 export PNPM_HOME="$HOME/Library/pnpm"
 case ":$PATH:" in
