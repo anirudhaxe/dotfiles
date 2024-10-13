@@ -18,6 +18,8 @@ git clone git@github.com:anirudhaxe/dev-stash.git .
 
 ## Homebrew
 
+Make sure you have Xcode Command Line Tools installed, run `xcode-select --install` to install it.
+
 [Install Homebrew](https://brew.sh/), then setup the [packages](https://github.com/anirudhaxe/dev-stash/blob/main/brew-dump/Brewfile) using Homebrew Brewfile:
 
 ```bash
