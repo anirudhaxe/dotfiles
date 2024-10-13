@@ -43,6 +43,8 @@ source ~/.zshrc
 
 ## iterm2
 
+Install [oh-my-zsh](https://ohmyz.sh/#install), [powerlevel10k](https://github.com/romkatv/powerlevel10k?tab=readme-ov-file#installation)
+
 In iterm2 installation, point to custom configuration directory by:
 
 - Open iterm2
