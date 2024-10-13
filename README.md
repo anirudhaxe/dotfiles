@@ -1,6 +1,6 @@
 # Dev Stash
 
-A stash for dev configs.
+A stash for dev configs for macOS.
 
 - neovim config
 - tmux config
