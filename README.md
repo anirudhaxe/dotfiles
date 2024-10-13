@@ -28,7 +28,7 @@ To update the Homebrew Brewfile:
 
 ```bash
 rm ~/.config/brew-dump/Brewfile
-brew bundle dump --file=~/.config/brew-dump/Brewfile
+brew bundle dump --file=~/.config/brew-dump/Brewfile --no-vscode
 ```
 
 ## zsh
