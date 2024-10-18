@@ -38,6 +38,7 @@ keymap.set("n", "<leader>ba", "<cmd>Telescope buffers<CR>", { desc = "Show all o
 keymap.set("n", "<leader>bl", "<cmd>bnext<CR>", { desc = "Go to next buffer" })
 keymap.set("n", "<leader>bh", "<cmd>bprev<CR>", { desc = "Go to previous buffer" })
 keymap.set("n", "<leader>bx", "<cmd>bd!<CR>", { desc = "Unload buffer and clear it from the buffer list" })
+keymap.set("n", "<leader>bs", "<cmd>b#<CR>", { desc = "Switch to previous buffer" })
 
 -- Map Option+Left to move backward by word in insert mode
 keymap.set("i", "<ESC>b", "<C-o>b", { noremap = true, silent = true })
