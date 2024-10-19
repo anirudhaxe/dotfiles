@@ -8,7 +8,7 @@ A stash for dev configs for macOS - node, go, python, devops tooling, terminal &
 - .zshrc config
 - Homebrew dump
 
-## Installation
+## 📦 Installation
 
 ```bash
 mkdir ~/.config
@@ -16,7 +16,7 @@ cd ~/.config
 git clone git@github.com:anirudhaxe/dev-stash.git .
 ```
 
-## Homebrew
+## ⚙️ Setup Homebrew
 
 Make sure you have Xcode Command Line Tools installed, run `xcode-select --install` to install it.
 
@@ -33,7 +33,7 @@ rm ~/.config/brew-dump/Brewfile
 brew bundle dump --file=~/.config/brew-dump/Brewfile --no-vscode
 ```
 
-## Terminal Emulator
+## ⚙️ Setup Terminal Emulator
 
 ### iterm2
 
