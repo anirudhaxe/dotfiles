@@ -33,7 +33,9 @@ rm ~/.config/brew-dump/Brewfile
 brew bundle dump --file=~/.config/brew-dump/Brewfile --no-vscode
 ```
 
-## iterm2
+## Terminal Emulator
+
+### iterm2
 
 Install [oh-my-zsh](https://ohmyz.sh/#install), [powerlevel10k](https://github.com/romkatv/powerlevel10k?tab=readme-ov-file#installation)
 
@@ -46,7 +48,7 @@ In iterm2 installation, point to custom configuration directory by:
 - Add path: `~/.config/iterm2-conf`
 - In `Save changes` selectable, select `Automatically`
 
-## p10k
+### p10k
 
 Install p10k configuration by removing the existing .p10k.zsh file and creating a symbolic link:
 
@@ -55,7 +57,7 @@ rm ~/.p10k.zsh
 ln -s ~/.config/p10k-conf/.p10k.zsh ~/.p10k.zsh
 ```
 
-## zsh
+### zsh
 
 Install zshrc configuration by removing the existing .zshrc file and creating a symbolic link:
 
