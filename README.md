@@ -1,12 +1,15 @@
 # Dev Stash
 
-A stash for dev configs for macOS - node, go, python, devops tooling, terminal & editor configs.
+A stash of dev configs (dot files) for macOS - node, go, python, devops tooling, terminal & editor configs.
+
+Features:
 
 - neovim config
 - tmux config
-- iterm2 config
-- .zshrc config
 - Homebrew dump
+- iterm2 config
+- p10k theme config
+- .zshrc config
 
 ## 📦 Installation
 
