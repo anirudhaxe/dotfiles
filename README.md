@@ -46,6 +46,15 @@ In iterm2 installation, point to custom configuration directory by:
 - Add path: `~/.config/iterm2-conf`
 - In `Save changes` selectable, select `Automatically`
 
+## p10k
+
+Install p10k configuration by removing the existing .p10k.zsh file and creating a symbolic link:
+
+```bash
+rm ~/.p10k.zsh
+ln -s ~/.config/p10k-conf/.p10k.zsh ~/.p10k.zsh
+```
+
 ## zsh
 
 Install zshrc configuration by removing the existing .zshrc file and creating a symbolic link:
