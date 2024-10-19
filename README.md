@@ -33,16 +33,6 @@ rm ~/.config/brew-dump/Brewfile
 brew bundle dump --file=~/.config/brew-dump/Brewfile --no-vscode
 ```
 
-## zsh
-
-Install zshrc configuration by removing the existing .zshrc file and creating a symbolic link:
-
-```bash
-rm ~/.zshrc
-ln -s ~/.config/zsh-conf/.zshrc ~/.zshrc
-source ~/.zshrc
-```
-
 ## iterm2
 
 Install [oh-my-zsh](https://ohmyz.sh/#install), [powerlevel10k](https://github.com/romkatv/powerlevel10k?tab=readme-ov-file#installation)
@@ -55,5 +45,15 @@ In iterm2 installation, point to custom configuration directory by:
 - check `Load settings from a custom folder or URL`
 - Add path: `~/.config/iterm2-conf`
 - In `Save changes` selectable, select `Automatically`
+
+## zsh
+
+Install zshrc configuration by removing the existing .zshrc file and creating a symbolic link:
+
+```bash
+rm ~/.zshrc
+ln -s ~/.config/zsh-conf/.zshrc ~/.zshrc
+source ~/.zshrc
+```
 
 ---
