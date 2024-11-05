@@ -193,3 +193,5 @@ esac
 # GPG
 export GPG_TTY=$(tty)
 
+# FZF
+eval "$(fzf --zsh)"
