@@ -1,6 +1,7 @@
 # Sensitive or verbose files/folders
 iterm2-conf/com.googlecode.iterm2.private.plist
 tmux/plugins
+nvim/lazy-lock.json
 
 # Additional files/folders
 configstore
