@@ -5,3 +5,5 @@ background-blur-radius = 15
 background-opacity = 0.65
 macos-titlebar-style = hidden
 confirm-close-surface = false
+# to delete from the current position to the start of the line
+keybind = cmd+backspace=esc:w
