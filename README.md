@@ -36,6 +36,12 @@ rm ~/.config/brew-dump/Brewfile
 brew bundle dump --file=~/.config/brew-dump/Brewfile --no-vscode
 ```
 
+To update the Homebrew Packages:
+
+```bash
+brew update && brew upgrade && brew upgrade --cask && brew cleanup
+```
+
 ## ⚙️ Setup Terminal Emulator
 
 ### iterm2

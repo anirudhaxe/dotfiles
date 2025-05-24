@@ -153,6 +153,9 @@ alias sgpt='chatgpt'
 # Alias 'lg' to 'lazygit' command
 alias lg='lazygit'
 
+# Alias 'tf' to 'terraform' command
+alias tf='terraform'
+
 # Alias 'cl' to 'clear' command
 alias cl='clear'
 
