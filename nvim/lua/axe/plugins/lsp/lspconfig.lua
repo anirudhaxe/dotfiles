@@ -72,11 +72,19 @@ return {
 
 		-- Change the Diagnostic symbols in the sign column (gutter)
 		-- (not in youtube nvim video)
-		local signs = { Error = " ", Warn = " ", Hint = "󰠠 ", Info = " " }
-		for type, icon in pairs(signs) do
-			local hl = "DiagnosticSign" .. type
-			vim.fn.sign_define(hl, { text = icon, texthl = hl, numhl = "" })
-		end
+		vim.diagnostic.config({
+			signs = {
+				-- simple name→icon map; trailing space is optional
+				Error = " ",
+				Warn = " ",
+				Hint = "󰠠 ",
+				Info = " ",
+			},
+			-- (optional) other diagnostic settings you might have:
+			-- underline = true,
+			-- virtual_text = { prefix = "●", spacing = 4 },
+			-- float = { source = "always", border = "rounded" },
+		})
 
 		-- extending configuration for lua lsp with native nvim.lsp.config method
 		vim.lsp.config("lua_ls", {
