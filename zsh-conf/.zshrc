@@ -144,6 +144,10 @@ sgy() {
     youtube "$search_term"
 }
 
+ff () {
+  aerospace list-windows --all | fzf --bind 'enter:execute(bash -c "aerospace focus --window-id {1}")+abort'
+}
+
 # Alias 'sg' to 'google' command
 alias sg='google'
 
@@ -184,7 +188,7 @@ unset __conda_setup
 # <<< conda initialize <<<
 
 # Prefill the fzf query with clipboard contents.
-export FZF_DEFAULT_OPTS="--query \"$(pbpaste)\""  
+# export FZF_DEFAULT_OPTS="--query \"$(pbpaste)\""  
 
 # fnm env setup
 eval "$(fnm env --use-on-cd --shell zsh)"
