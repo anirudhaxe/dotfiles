@@ -162,6 +162,9 @@ alias tf='terraform'
 # Alias 'cl' to 'clear' command
 alias cl='clear'
 
+# Alias 'ai' to 'gemini' command
+alias ai='gemini --model gemini-2.5-flash'
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
