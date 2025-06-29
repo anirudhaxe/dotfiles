@@ -1,35 +1,37 @@
-# Dev Stash
+# Dotfiles on my machine
 
-A stash of dev configs (dot files) for macOS - node, go, python, devops tooling, terminal & editor configs.
+Dot files for macOS - node, go, python, devops tooling, terminal & editor configs.
 
-Features:
+Includes:
 
 - neovim config
 - tmux config
-- Homebrew dump
-- iterm2 config
+- aerospace config
+- ghostty config
 - p10k theme config
 - .zshrc config
+- Homebrew dump
+- iterm2 config
 
 ## 📦 Installation
 
 ```bash
 mkdir ~/.config
 cd ~/.config
-git clone git@github.com:anirudhaxe/dev-stash.git .
+git clone git@github.com:anirudhaxe/dotfiles.git .
 ```
 
 ## ⚙️ Setup Homebrew
 
 Make sure you have Xcode Command Line Tools installed, run `xcode-select --install` to install it.
 
-[Install Homebrew](https://brew.sh/), then setup the [packages](https://github.com/anirudhaxe/dev-stash/blob/main/brew-dump/Brewfile) using Homebrew Brewfile:
+[Install Homebrew](https://brew.sh/), then setup the [packages](https://github.com/anirudhaxe/dotfiles/blob/main/brew-dump/Brewfile) using Homebrew Brewfile:
 
 ```bash
 brew bundle --file=~/.config/brew-dump/Brewfile
 ```
 
-To update the Homebrew Brewfile:
+To update the Homebrew Brewfile later:
 
 ```bash
 rm ~/.config/brew-dump/Brewfile
@@ -43,6 +45,10 @@ brew update && brew upgrade && brew upgrade --cask && brew cleanup
 ```
 
 ## ⚙️ Setup Terminal Emulator
+
+### ghostty
+
+No additional setup for ghostty, config files are enough.
 
 ### iterm2
 
