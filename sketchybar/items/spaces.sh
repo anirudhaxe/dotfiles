@@ -29,7 +29,7 @@ separator=(
   icon=􀆊
   icon.font="$FONT:Heavy:16.0"
   padding_left=15
-  padding_right=15
+  # padding_right=15
   associated_display=active
   icon.color=$WHITE
 )
