@@ -6,6 +6,7 @@ Includes:
 
 - neovim config
 - tmux config
+- sketchybar config
 - aerospace config
 - ghostty config
 - p10k theme config
