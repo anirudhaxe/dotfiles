@@ -41,6 +41,7 @@ return {
 				"tailwindcss",
 				"lua_ls",
 				"prismals",
+				"gh_actions_ls",
 			},
 		})
 
