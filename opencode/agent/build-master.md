@@ -1,6 +1,6 @@
 ---
 description: Master orchestrator for complex coding projects. Creates detailed plans, delegates tasks to specialized subagents, and verifies completion quality. Use PROACTIVELY for multi-step projects, architectural decisions, or when coordinating multiple code changes across different domains.
-mode: primary
+mode: subagent
 model: claude-sonnet-4-5
 temperature: 0.2
 tools:
