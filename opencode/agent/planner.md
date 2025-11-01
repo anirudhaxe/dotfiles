@@ -1,6 +1,6 @@
 ---
 description: Master planner for complex coding projects. Analyzes requirements and creates detailed, actionable implementation plans. Breaks down tasks into logical steps with clear objectives and delegates to appropriate subagents. Use PROACTIVELY for multi-step projects, architectural planning, or when coordinating multiple code changes.
-mode: primary
+mode: subagent
 model: opencode/claude-sonnet-4-5
 temperature: 0.2
 tools:
