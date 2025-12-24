@@ -42,7 +42,7 @@ return {
 
 		-- Set menu
 		dashboard.section.buttons.val = {
-			dashboard.button("SPC wr", "󰁯  > Restore Session", "<cmd>SessionRestore<CR>"),
+			dashboard.button("SPC wr", "󰁯  > Restore Session", "<cmd>AutoSession restore<CR>"),
 			-- dashboard.button("e", "  > New File", "<cmd>ene<CR>"),
 			-- dashboard.button("SPC ee", "  > Toggle file explorer", "<cmd>NvimTreeToggle<CR>"),
 			-- dashboard.button("SPC ff", "󰱼  > Find File", "<cmd>Telescope find_files<CR>"),
