@@ -42,6 +42,8 @@ return {
 				"lua_ls",
 				"prismals",
 				"gh_actions_ls",
+				"graphql",
+				"postgres_lsp", -- pgsql lsp
 			},
 		})
 
@@ -53,6 +55,7 @@ return {
 				"black", -- python formatter
 				"pylint", -- python linter
 				"eslint_d", -- js linter
+				"pgformatter", -- pgsql linter/formatter
 			},
 		})
 	end,

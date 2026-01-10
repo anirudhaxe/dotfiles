@@ -109,5 +109,10 @@ return {
 				"typescriptreact",
 			},
 		}
+		vim.lsp.config["postgres_lsp"] = {
+			filetypes = {
+				"sql",
+			},
+		}
 	end,
 }

@@ -5,11 +5,19 @@ return {
 		local conform = require("conform")
 
 		conform.setup({
-			-- formatters = {
-			-- 	prettier = {
-			-- 		prepend_args = { "--trailing-comma", "es5", "--tab-width", "2", "--print-width", "80" },
-			-- 	},
-			-- },
+			formatters = {
+				-- 	prettier = {
+				-- 		prepend_args = { "--trailing-comma", "es5", "--tab-width", "2", "--print-width", "80" },
+				-- 	},
+
+				pg_format = {
+					prepend_args = {
+						"--comma-break",
+						"--spaces",
+						"4",
+					},
+				},
+			},
 			formatters_by_ft = {
 				javascript = { "prettier" },
 				typescript = { "prettier" },
@@ -22,6 +30,8 @@ return {
 				markdown = { "prettier" },
 				lua = { "stylua" },
 				python = { "isort", "black" },
+				sql = { "pg_format" },
+				graphql = { "prettier" },
 			},
 			format_on_save = {
 				lsp_fallback = true,
