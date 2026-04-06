@@ -77,3 +77,5 @@ keymap.set("n", "<leader>bs", "<cmd>b#<CR>", { desc = "Switch to previous buffer
 keymap.set("i", "<ESC>b", "<C-o>b", { noremap = true, silent = true })
 -- map Option+Right to move forward by word in insert mode
 keymap.set("i", "<ESC>f", "<C-o>w", { noremap = true, silent = true })
+-- exit from TERMINAL mode into NORMAL mode using esc
+keymap.set("t", "<Esc>", "<C-\\><C-n>", { noremap = true, silent = true })
