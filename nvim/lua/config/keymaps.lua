@@ -40,7 +40,7 @@ keymap.set("n", "<leader>th", "<cmd>tabp<CR>", { desc = "Go to previous tab" })
 keymap.set("n", "<leader>tf", "<cmd>tabnew %<CR>", { desc = "Open current buffer in new tab" })
 
 -- Buffer management
-keymap.set("n", "<leader>ba", "<cmd>Telescope buffers<CR>", { desc = "Show all open buffers in Telescope" })
+keymap.set("n", "<leader>ba", function() require("telescope.builtin").buffers() end, { desc = "Show all open buffers in Telescope" })
 keymap.set("n", "<leader>bl", "<cmd>bnext<CR>", { desc = "Go to next buffer" })
 keymap.set("n", "<leader>bh", "<cmd>bprev<CR>", { desc = "Go to previous buffer" })
 keymap.set("n", "<leader>bx", "<cmd>bd!<CR>", { desc = "Unload buffer and clear it from the buffer list" })
@@ -52,3 +52,6 @@ keymap.set("i", "<ESC>f", "<C-o>w", { noremap = true, silent = true })
 
 -- Terminal mode
 keymap.set("t", "<Esc>", "<C-\\><C-n>", { noremap = true, silent = true })
+
+-- Override LazyVim defaults
+keymap.set("n", "<leader>uM", function() require("telescope.builtin").marks() end, { desc = "Show marks" })
