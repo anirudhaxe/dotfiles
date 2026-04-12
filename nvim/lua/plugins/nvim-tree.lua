@@ -13,6 +13,14 @@ return {
 		},
 	},
 	{
+		"folke/noice.nvim",
+		opts = {
+			lsp = {
+				hover = { enabled = false },
+			},
+		},
+	},
+	{
 		"nvim-tree/nvim-tree.lua",
 		dependencies = "nvim-tree/nvim-web-devicons",
 		config = function()
