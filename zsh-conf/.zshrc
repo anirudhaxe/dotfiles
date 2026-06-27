@@ -166,8 +166,9 @@ alias tf='terraform'
 # Alias 'cl' to 'clear' command
 alias cl='clear'
 
-# Alias 'ai' to 'gemini' command
-alias ai='gemini --model gemini-2.5-flash'
+# Alias package managers with socket firewall
+alias npms='sfw npm'
+alias pnpms='sfw pnpm'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
@@ -219,3 +220,6 @@ eval "$(fzf --zsh)"
 export ANDROID_HOME=$HOME/Library/Android/sdk
 export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$ANDROID_HOME/platform-tools
+
+# opencode
+export OPENCODE_ENABLE_EXA=1
