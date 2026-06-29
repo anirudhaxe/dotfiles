@@ -1,76 +1,136 @@
+tap "anomalyco/tap", "https://github.com/anomalyco/homebrew-tap.git"
 tap "ariga/tap"
 tap "felixkratz/formulae"
 tap "hashicorp/tap"
-tap "homebrew/bundle"
 tap "jesseduffield/lazygit"
 tap "nikitabobko/tap"
 tap "oven-sh/bun"
-tap "sst/tap"
+# Cryptographic recipes and primitives for Python
 brew "cryptography"
+# CLI tool to build, test, debug, and deploy Serverless applications using AWS SAM
 brew "aws-sam-cli"
+# Official Amazon AWS command-line interface
 brew "awscli"
+# Bourne-Again SHell, a UNIX command interpreter
 brew "bash"
+# Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
+# Resource monitor. C++ version and continuation of bashtop and bpytop
 brew "btop"
+# Validate CloudFormation templates against the CloudFormation spec
 brew "cfn-lint"
+# Statistics utility to count lines of code
 brew "cloc"
+# Cross-platform make
 brew "cmake"
+# Console Matrix
 brew "cmatrix"
+# Utility that creates projects from templates
 brew "cookiecutter"
+# Text processing system for reStructuredText
 brew "docutils"
+# Like neofetch, but much faster because written mostly in C
 brew "fastfetch"
+# Play, record, convert, and stream select audio and video codecs
 brew "ffmpeg"
+# Fast and simple Node.js version manager
 brew "fnm"
+# Command-line fuzzy finder written in Go
 brew "fzf"
+# Syntax-highlighting pager for git and diff output
 brew "git-delta"
+# GNU Privacy Guard (OpenPGP)
 brew "gnupg"
+# Open source programming language to build simple/reliable/efficient software
 brew "go"
+# Kubernetes package manager
 brew "helm"
+# Deploy Kubernetes Helm Charts
 brew "helmfile"
+# Kubernetes command-line interface
 brew "kubernetes-cli"
+# Simple terminal UI for git commands
 brew "lazygit"
+# Run a Kubernetes cluster locally
 brew "minikube"
+# Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
+# Search tool like grep and The Silver Searcher
 brew "ripgrep"
+# AI coding agent, built for the terminal
 brew "opencode"
+# Pinentry for GPG on Mac
 brew "pinentry-mac"
+# Fast, disk space efficient package manager
 brew "pnpm"
+# Interpreted, interactive, object-oriented programming language
 brew "python@3.11"
+# Interpreted, interactive, object-oriented programming language
 brew "python@3.12"
+# Generate type safe Go from SQL
 brew "sqlc"
+# Terminal multiplexer
 brew "tmux"
+# Plugin manager for tmux
 brew "tpm"
+# Unified toolchain and entry point for web development
+brew "vite-plus"
+# Executes a program periodically, showing output fullscreen
 brew "watch"
+# Internet file retriever
 brew "wget"
-brew "ariga/tap/atlas"
-brew "felixkratz/formulae/borders"
-brew "felixkratz/formulae/sketchybar"
-brew "hashicorp/tap/terraform"
-brew "oven-sh/bun/bun"
-brew "sst/tap/sst"
+# Custom macOS statusbar with shell plugin, interaction and graph support
+brew "felixkratz/formulae/sketchybar", trusted: true
+# AeroSpace is an i3-like tiling window manager for macOS
 cask "nikitabobko/tap/aerospace"
+# Distribution of the Python and R programming languages for scientific computing
 cask "anaconda"
+# Tools for building Android applications
 cask "android-studio"
+# Desktop password and login vault
 cask "bitwarden"
+# Free app that makes your Internet safer
 cask "cloudflare-warp"
+# Voice and text chat software
 cask "discord"
+# App to build and share containerised applications and microservices
 cask "docker-desktop"
 cask "font-meslo-lg-nerd-font"
 cask "font-sf-pro"
+# Terminal emulator that uses platform-native UI and GPU acceleration
 cask "ghostty"
+# Web browser
 cask "google-chrome"
+# Chromium-based web browser
 cask "helium-browser"
+# Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
+# Clipboard manager
 cask "maccy"
+# Interactive tool for analyzing MongoDB data
 cask "mongodb-compass"
+# App to write, plan, collaborate, and get organised
 cask "notion"
+# Knowledge base that works on top of a local folder of plain text Markdown files
 cask "obsidian"
+# Administration and development platform for PostgreSQL
 cask "pgadmin4"
+# Collaboration platform for API development
 cask "postman"
+# Control your tools with a few keystrokes
 cask "raycast"
+# Team communication and collaboration software
 cask "slack"
+# Dictation tool including LLM reformatting
 cask "superwhisper"
+# Minimal GUI for AI code agents
+cask "t3-code"
+# Open-source code editor
 cask "visual-studio-code"
+# Multimedia player
 cask "vlc"
 go "golang.org/x/tools/gopls"
 go "honnef.co/go/tools/cmd/staticcheck"
+npm "corepack"
+npm "opencode-ai"
+npm "sfw"
