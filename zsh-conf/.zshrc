@@ -170,6 +170,9 @@ alias cl='clear'
 alias npms='sfw npm'
 alias pnpms='sfw pnpm'
 
+# Alias for opencode in exposed server mode so opencode.nvim can find it
+alias oc='opencode --port'
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
