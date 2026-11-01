@@ -32,6 +32,18 @@ Make sure you have Xcode Command Line Tools installed, run `xcode-select --insta
 brew bundle --file=~/.config/brew-dump/Brewfile
 ```
 
+To preview installed packages that are not listed in the Brewfile:
+
+```bash
+brew bundle cleanup --file=~/.config/brew-dump/Brewfile
+```
+
+To uninstall those extra packages, review the preview first, then run:
+
+```bash
+brew bundle cleanup --force --file=~/.config/brew-dump/Brewfile
+```
+
 To update the Homebrew Brewfile later:
 
 ```bash
