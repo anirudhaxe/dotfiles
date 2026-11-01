@@ -224,5 +224,14 @@ export ANDROID_HOME=$HOME/Library/Android/sdk
 export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 
+# rust
+export PATH="/opt/homebrew/opt/rustup/bin:$PATH"
+
 # opencode
 export OPENCODE_ENABLE_EXA=1
+
+# atuin override
+eval "$(atuin init zsh)"
+
+# Added by the Postman CLI installer
+export PATH='/Users/aniruddha/.local/bin':"$PATH"
