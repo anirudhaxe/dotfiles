@@ -173,7 +173,7 @@ automatically-unhide-macos-hidden-apps = false
     alt-2 = 'workspace 2'
     alt-3 = 'workspace 3'
     alt-4 = 'workspace 4'
-    alt-5 = 'workspace 5'
+    # alt-5 = 'workspace 5'
     # alt-a = 'workspace A' # In your config, you can drop workspace bindings that you don't need
     # alt-b = 'workspace B'
     # alt-c = 'workspace C'
@@ -185,7 +185,7 @@ automatically-unhide-macos-hidden-apps = false
     alt-shift-2 = ['move-node-to-workspace 2', 'workspace 2']
     alt-shift-3 = ['move-node-to-workspace 3', 'workspace 3']
     alt-shift-4 = ['move-node-to-workspace 4', 'workspace 4']
-    alt-shift-5 = ['move-node-to-workspace 5', 'workspace 5']
+    # alt-shift-5 = ['move-node-to-workspace 5', 'workspace 5']
     # alt-shift-a = 'move-node-to-workspace A'
     # alt-shift-b = 'move-node-to-workspace B'
     # alt-shift-c = 'move-node-to-workspace C'
@@ -231,9 +231,9 @@ if.app-id = 'com.mitchellh.ghostty'
 run = "move-node-to-workspace 2"
 
 [[on-window-detected]]
-if.app-id = 'com.todesktop.230313mzl4w4u92'
-run = "move-node-to-workspace 4"
+if.app-id = 'com.t3tools.t3code'
+run = "move-node-to-workspace 2"
 
 [[on-window-detected]]
 if.app-id = 'com.microsoft.VSCode'
-run = "move-node-to-workspace 4"
+run = "move-node-to-workspace 2"
