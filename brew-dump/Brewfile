@@ -2,9 +2,11 @@ tap "anomalyco/tap", "https://github.com/anomalyco/homebrew-tap.git"
 tap "ariga/tap"
 tap "felixkratz/formulae"
 tap "hashicorp/tap"
-tap "jesseduffield/lazygit"
+tap "jesseduffield/lazygit", trusted: true
 tap "nikitabobko/tap"
 tap "oven-sh/bun"
+# Improved shell history for zsh, bash, fish and nushell
+brew "atuin"
 # Cryptographic recipes and primitives for Python
 brew "cryptography"
 # CLI tool to build, test, debug, and deploy Serverless applications using AWS SAM
@@ -19,8 +21,12 @@ brew "bat"
 brew "btop"
 # Validate CloudFormation templates against the CloudFormation spec
 brew "cfn-lint"
+# Anti-virus software
+brew "clamav"
 # Statistics utility to count lines of code
 brew "cloc"
+# Cloudflare Tunnel client (formerly Argo Tunnel)
+brew "cloudflared"
 # Cross-platform make
 brew "cmake"
 # Console Matrix
@@ -37,6 +43,8 @@ brew "ffmpeg"
 brew "fnm"
 # Command-line fuzzy finder written in Go
 brew "fzf"
+# GitHub command-line tool
+brew "gh"
 # Syntax-highlighting pager for git and diff output
 brew "git-delta"
 # GNU Privacy Guard (OpenPGP)
@@ -53,6 +61,8 @@ brew "kubernetes-cli"
 brew "lazygit"
 # Run a Kubernetes cluster locally
 brew "minikube"
+# Deep clean and optimize your Mac
+brew "mole"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
 # Search tool like grep and The Silver Searcher
@@ -67,6 +77,8 @@ brew "pnpm"
 brew "python@3.11"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.12"
+# Rust toolchain installer
+brew "rustup"
 # Generate type safe Go from SQL
 brew "sqlc"
 # Terminal multiplexer
@@ -79,10 +91,19 @@ brew "vite-plus"
 brew "watch"
 # Internet file retriever
 brew "wget"
+brew "anomalyco/tap/sst", trusted: true
+# A database toolkit
+brew "ariga/tap/atlas", trusted: true
+# A window border system for macOS
+brew "felixkratz/formulae/borders", trusted: true
 # Custom macOS statusbar with shell plugin, interaction and graph support
 brew "felixkratz/formulae/sketchybar", trusted: true
+# Terraform
+brew "hashicorp/tap/terraform", trusted: true
+# Incredibly fast JavaScript runtime, bundler, transpiler and package manager - all in one.
+brew "oven-sh/bun/bun", trusted: true
 # AeroSpace is an i3-like tiling window manager for macOS
-cask "nikitabobko/tap/aerospace"
+cask "nikitabobko/tap/aerospace", trusted: true
 # Distribution of the Python and R programming languages for scientific computing
 cask "anaconda"
 # Tools for building Android applications
@@ -91,10 +112,14 @@ cask "android-studio"
 cask "bitwarden"
 # Free app that makes your Internet safer
 cask "cloudflare-warp"
+# OpenAI's coding agent that runs in your terminal
+cask "codex"
 # Voice and text chat software
 cask "discord"
 # App to build and share containerised applications and microservices
 cask "docker-desktop"
+# Offline voice-to-text dictation app with AI enhancement
+cask "fluidvoice"
 cask "font-meslo-lg-nerd-font"
 cask "font-sf-pro"
 # Terminal emulator that uses platform-native UI and GPU acceleration
@@ -121,8 +146,6 @@ cask "postman"
 cask "raycast"
 # Team communication and collaboration software
 cask "slack"
-# Dictation tool including LLM reformatting
-cask "superwhisper"
 # Minimal GUI for AI code agents
 cask "t3-code"
 # Open-source code editor
@@ -132,5 +155,4 @@ cask "vlc"
 go "golang.org/x/tools/gopls"
 go "honnef.co/go/tools/cmd/staticcheck"
 npm "corepack"
-npm "opencode-ai"
 npm "sfw"
