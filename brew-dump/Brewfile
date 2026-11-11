@@ -132,8 +132,6 @@ cask "helium-browser"
 cask "iterm2"
 # Clipboard manager
 cask "maccy"
-# Interactive tool for analyzing MongoDB data
-cask "mongodb-compass"
 # App to write, plan, collaborate, and get organised
 cask "notion"
 # Knowledge base that works on top of a local folder of plain text Markdown files
@@ -144,15 +142,11 @@ cask "pgadmin4"
 cask "postman"
 # Control your tools with a few keystrokes
 cask "raycast"
-# Team communication and collaboration software
-cask "slack"
 # Minimal GUI for AI code agents
 cask "t3-code"
 # Open-source code editor
 cask "visual-studio-code"
 # Multimedia player
 cask "vlc"
-go "golang.org/x/tools/gopls"
-go "honnef.co/go/tools/cmd/staticcheck"
 npm "corepack"
 npm "sfw"
