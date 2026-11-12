@@ -55,6 +55,8 @@ brew "go"
 brew "helm"
 # Deploy Kubernetes Helm Charts
 brew "helmfile"
+# Client library for huggingface.co hub
+brew "hf"
 # Kubernetes command-line interface
 brew "kubernetes-cli"
 # Simple terminal UI for git commands
@@ -65,10 +67,14 @@ brew "minikube"
 brew "mole"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
+# Create, run, and share large language models (LLMs)
+brew "ollama"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
 # AI coding agent, built for the terminal
 brew "opencode"
+# AI agent toolkit
+brew "pi-coding-agent"
 # Pinentry for GPG on Mac
 brew "pinentry-mac"
 # Fast, disk space efficient package manager
